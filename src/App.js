@@ -1,11 +1,11 @@
 import Navbar from "./components/navbar";
-import Home from "./pages/home";
+import Landingpage from "./pages/landingpage";
 
 function App() {
   return (
     <>
     <Navbar />
-    <Home />
+    <Landingpage />
     
     </>
   );
