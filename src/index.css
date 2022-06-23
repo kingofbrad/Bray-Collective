@@ -12,3 +12,9 @@ margin: 0;
     box-sizing: border-box;
 }
 
+.content-div {
+    background-repeat: none ;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
