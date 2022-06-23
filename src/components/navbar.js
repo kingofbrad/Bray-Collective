@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { FaBars, FaTimes } from 'react-icons/fa'
-
+import ClovisBray from '../Assets/Clovis_Bray_logo.png'
 
 
 
@@ -11,17 +11,18 @@ const NavbarRouter = () => {
     const handleClick = () => setNav(!nav)
 
     return (
+      
 
         <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#121329] text-gray-300 '>
             {/* Logo Div */}
             <div>
-                <img src='/' alt="Logo Image" />
+                <img src={ClovisBray} alt="Logo Image" className='w-[80px] pt-2 rounded-md' />
             </div>
 
 
 
             {/* Menu */}
-            <ul className=' hidden md:flex md:justify-between w-[400px] pr-4'>
+            <ul className=' hidden md:flex md:justify-between w-[350px] pr-4'>
                 <li>
                     <Link to="/categories" duration={500}>
                         Categories
