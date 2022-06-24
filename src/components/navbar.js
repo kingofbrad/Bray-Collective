@@ -1,8 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { FaBars, FaTimes } from 'react-icons/fa'
-import ClovisBray from '../Assets/Clovis_Bray_logo.png'
-
+import WarmindLogo from '../Assets/Warmind-Logo-White.webp'
 
 
 const NavbarRouter = () => {
@@ -13,10 +12,10 @@ const NavbarRouter = () => {
     return (
       
 
-        <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#121329] text-gray-300 '>
+        <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#19191B] text-gray-300 '>
             {/* Logo Div */}
             <div>
-                <img src={ClovisBray} alt="Logo Image" className='w-[80px] pt-2 rounded-md' />
+                <img src={WarmindLogo} alt="Logo Image" className='w-[80px] pt-2 rounded-md' />
             </div>
 
 
