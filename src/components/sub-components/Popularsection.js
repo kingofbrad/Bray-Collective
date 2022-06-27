@@ -11,7 +11,7 @@ import RasputinCover from '../../Assets/cover-images/Rasputin-Cover.png'
 
 const Popularsection = () => {
   return (
-    <div className='flex justify-center items-center pt-[70px]'>
+    <div className='flex justify-center items-center pt-[70px] z-10'>
             <div className='w-[400px] sm:w-[700px] md:w-[1200px] mx-auto'>
                 <div>
                     <h1 className='font-bold text-3xl border-b-2 py-3'>Popular</h1>

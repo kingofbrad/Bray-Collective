@@ -6,6 +6,8 @@ import Cayde6 from '../Assets/npc-art/Cayde-6.PNG'
 import Mithrax from '../Assets/npc-art/Mithrax_Splicer.webp'
 import DrifterGambit from '../Assets/book_covers/Drifters-Gambit.png'
 import SivaCover from '../Assets/cover-images/Siva-Cover.jpeg'
+import Card from './sub-components/Card'
+
 
 
 const Updatedsection = () => {
@@ -33,21 +35,19 @@ const Updatedsection = () => {
                         </a>
                     </div>
                     {/* Second Card */}
-                    <div className='sm:grid-col-end-2'>
-                        <a href='/'>
-                            <div className='shadow-lg shadow-[#040c16] group container flex items-center mx-auto content-div '>
-                                <div className='w-full content-div opacity-[0.4] rounded-md' style={{ backgroundImage: `url(${OutBreakPerfected})` }}></div>
-                                <div className='absolute pt-[150px]'>
-                                    <div className='grid'>
-                                        <div className='pl-3' >
-                                            <p className='text-[18px] font-bold  border-b-2 uppercase pb-1 '>Recent Entry</p>
-                                            <p className='pb-4 text-2xl font-bold'>Outbreak Prime</p>
-                                        </div>
+                    <a href='/'>
+                        <div className='shadow-lg shadow-[#040c16] group container flex items-center mx-auto content-div '>
+                            <div className='w-full content-div opacity-[0.4] rounded-md' style={{ backgroundImage: `url(${OutBreakPerfected})` }}></div>
+                            <div className='absolute pt-[150px]'>
+                                <div className='grid'>
+                                    <div className='pl-3' >
+                                        <p className='text-[18px] font-bold  border-b-2 uppercase pb-1 '>Recent Entry</p>
+                                        <p className='pb-4 text-2xl font-bold'>Outbreak Prime</p>
                                     </div>
                                 </div>
                             </div>
-                        </a>
-                    </div>
+                        </div>
+                    </a>
                     {/* Third Card */}
                     <a href="">
                         <div className='shadow-lg shadow-[#040c16] group container flex items-center mx-auto content-div'>
@@ -104,6 +104,9 @@ const Updatedsection = () => {
                             </div>
                         </div>
                     </a>
+
+
+                   <Card />
 
 
                 </div>
