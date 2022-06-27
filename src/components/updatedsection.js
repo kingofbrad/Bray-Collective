@@ -3,7 +3,7 @@ import TriageBookCover from '../Assets/book_covers/book-triage.png'
 import SOTHCover from '../Assets/cover-images/season-of-the-hunted-cover.jpeg'
 import OutBreakPerfected from '../Assets/weapon-art/Outbreak-Perfected.jpg'
 import Cayde6 from '../Assets/npc-art/Cayde-6.PNG'
-import Mithrax from '../Assets/npc-art/Mithrax-cover.avif'
+import Mithrax from '../Assets/npc-art/Mithrax_Splicer.webp'
 import DrifterGambit from '../Assets/book_covers/Drifters-Gambit.png'
 import SivaCover from '../Assets/cover-images/Siva-Cover.jpeg'
 
