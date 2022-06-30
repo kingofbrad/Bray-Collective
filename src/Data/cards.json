@@ -1,0 +1,21 @@
+[
+    {
+        "id":"1",
+        "title": "SIVA",
+        "add":"Recently Added",
+        "update": "Recently Updated",
+        "backgroundImage": "./Assets/cover-images/Siva-Cover.jpeg"
+    },
+    {
+        "id":"2",
+        "title": "Rasputin",
+        "add":"Recently Added",
+        "State":"Recently Updated"
+    },
+    {
+        "id":"3",
+        "title":"Cayde-6",
+        "add":"Recently Added",
+        "State":"Recently Added"
+    }
+]
