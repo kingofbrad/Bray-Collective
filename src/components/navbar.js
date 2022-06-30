@@ -12,7 +12,7 @@ const NavbarRouter = () => {
     return (
       
 
-        <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#19191B] text-gray-300 '>
+        <div className='fixed  w-full h-[80px] flex justify-between items-center px-4 bg-[#19191B] text-gray-300 '>
             {/* Logo Div */}
             <div>
                 <img src={WarmindLogo} alt="Logo Image" className='w-[80px] pt-2 rounded-md' />

@@ -1,44 +1,32 @@
 import React from 'react'
-import '../sub-components/Card.css'
+import {HiArrowNarrowRight} from 'react-icons/hi'
+
 import Siva from '../../Assets/cover-images/Siva-Cover.jpeg'
 import CardRecords from '../../Json/cards.json'
 
 
 
 
-const Card = () => {
+const Card = (props) => {
     return (
-        <div style={{ backgroundImage: `url(${Siva})` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-
-            {/* Hover Effects */}
-            <div className='text-center flex text-2xl text-white'>
-                {CardRecords && CardRecords[0].title}
+        <a style={{backgroundImage:`url(${Siva})`}} href="/" className=" block p-6 max-w-md bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 content-div">
+            <div className='pt-[120px]'>
+            <h5 className="mb-2 text-2xl font-bold text-gray-900 dark:text-white ">{props.name}</h5>
+            <p className="font-normal text-[#8892b0]">{props.state}</p>
             </div>
-            <div>
-                {CardRecords && CardRecords[1].content}
-            </div>
-
-            {/* {
-            CardRecords && CardRecords.map( record => {
-                return (
-                    <div className='' key={ record.id}>
-                        {record.Siva && record.Siva.map( data => {
-                            return(
-                                <div key={record.id}> 
-                                    {data.title}
-                                    {data.content}
-                                </div>
-                            )
-                        })}
-                    </div>
-                )
-            })
-        } */}
+            
+        </a>
+        
 
 
-        </div>
+
     )
+    
 }
 
+
 export default Card
+
+
+
+

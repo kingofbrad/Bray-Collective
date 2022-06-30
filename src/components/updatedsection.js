@@ -106,7 +106,7 @@ const Updatedsection = () => {
                     </a>
 
 
-                   <Card />
+                   <Card name="Siva" />
 
 
                 </div>
