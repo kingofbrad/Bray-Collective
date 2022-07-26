@@ -10,16 +10,12 @@ import data from '../Data/data'
 
 
 
-const Landingpage = (item) => {
+const Landingpage = () => {
   return (
     // Main Container
-    <div className="bg-[#19191B]  w-full h-full sm:h-full md:h-full text-gray-300 pt-[100px] px-2">
-      <Card
-        name={item.name}
-        state={item.add}
-        bg={item.image}
-        style={{backgroundImage:`url(${Siva})`}}
-      />
+    <div name='landingpage' className="bg-[#19191B]  w-full h-full sm:h-full md:h-full text-gray-300 pt-[100px] px-2">
+      <h1>hi</h1>
+      <Updatedsection />
       <Popularsection />
 
     </div>
